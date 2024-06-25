@@ -20,8 +20,8 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -29,8 +29,19 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- ms auto pushes the navigation links to the right side -->
         <ul class="navbar-nav ms-auto flex-lg-column">
-          <!-- ms auto pushes the navigation links to the right side -->
+          <!-- profile picture container -->
+          <li class="profile-pic-container">
+            <a class="navbar-brand" href="#">
+              <img
+                class="profilepic d-none d-lg-block"
+                src="./assets/images/personImage.jpg"
+                alt="personImage"
+              />
+            </a>
+          </li>
+
           <li class="nav-item active">
             <a class="nav-link" href="#home"
               >Home <span class="sr-only">(current)</span></a
