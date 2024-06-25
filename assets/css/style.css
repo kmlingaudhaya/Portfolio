@@ -56,3 +56,7 @@ img {
   width: 150px;
   height: 150px;
 }
+
+.black-and-white {
+  filter: grayscale(100%);
+}
