@@ -37,6 +37,26 @@ img {
   width: 100%;
 }
 
+.profilepic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.black-and-white {
+  filter: grayscale(100%);
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  transform: scale(1.2);
+  color: #e0f780;
+}
+
 /* setting the navigation bar window size more than 99px */
 
 @media (min-width: 922px) {
@@ -49,14 +69,4 @@ img {
     background-size: cover;
     background-position: center;
   }
-}
-
-.profilepic {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-}
-
-.black-and-white {
-  filter: grayscale(100%);
 }
