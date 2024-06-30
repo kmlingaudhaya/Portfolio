@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- NAV BAR -->
     <nav
       class="navbar navbar-expand-lg navbar-dark container flex-lg-column text-lg-center fixed-top"
+      id="navbar"
     >
       <a class="navbar-brand" href="#">
         <span class="h3 fw-bold d-lg-none">LINGA</span>
@@ -36,7 +37,7 @@
             <a class="navbar-brand" href="#">
               <img
                 class="profilepic d-none d-lg-block"
-                src="./assets/images/personImage.jpg"
+                src="./assets/images/personImage-modified.jpg"
                 alt="personImage"
               />
             </a>
@@ -83,15 +84,21 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
-              <h1 class="display-3 fw-bold text-uppercase">
+              <h1 class="display-3 fw-bold text-uppercase" data-aos="fade-up">
                 I'm a <span class="text-brand">Web developer</span> from India
               </h1>
-              <p class="lead text-uppercase">
+              <p
+                class="lead text-uppercase"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 I am Linga, And i design and develop attractive and elegant
                 websites.
               </p>
-              <a href="#work" class="btn btn-brand me-5">Explore my work</a>
-              <a href="#contact" class="custom-link">call:(+91) 9363235724</a>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-5">Explore my work</a>
+                <a href="#contact" class="custom-link">call:(+91) 9363235724</a>
+              </div>
             </div>
           </div>
         </div>
@@ -99,7 +106,7 @@
 
       <section id="services" class="full-height px-lg-5">
         <div class="container">
-          <div class="row">
+          <div class="row pb-4" data-aos="fade-up">
             <div class="col-lg-8">
               <h6 class="text-brand">SERVICES</h6>
               <h2 class="display-3 fw-bold">What I do</h2>
@@ -107,7 +114,7 @@
           </div>
 
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up">
               <div
                 class="service-cards h-100 p-4 bg-base rounded-3 shadow-effect"
               >
@@ -124,7 +131,7 @@
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
               <div
                 class="service-cards h-100 p-4 bg-base rounded-3 shadow-effect"
               >
@@ -141,7 +148,7 @@
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
               <div
                 class="service-cards h-100 p-4 bg-base rounded-3 shadow-effect"
               >

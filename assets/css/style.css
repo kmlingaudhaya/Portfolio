@@ -15,6 +15,7 @@ body {
   background-color: var(--color-base2);
   color: var(--color-body);
   font-family: var(--font-base), sans-serif;
+  position: relative;
 }
 
 h1,
@@ -55,6 +56,10 @@ img {
 .nav-link:hover {
   transform: scale(1.1);
   color: var(--color-brand2);
+}
+
+.navbar .nav-link.active {
+  color: var(--color-brand);
 }
 
 .navbar {
