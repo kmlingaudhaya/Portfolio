@@ -64,7 +64,7 @@ img {
 
 .full-height {
   min-height: 100vh;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,10 +86,6 @@ img {
   color: var(--color-base);
 }
 
-.service-cards {
-  max-height: 250px;
-}
-
 .text-brand {
   color: var(--color-brand);
 }
@@ -104,6 +100,10 @@ img {
 
 .shadow-effect:hover {
   box-shadow: -8px 8px 8px var(--color-brand);
+}
+
+.row {
+  display: flex;
 }
 
 /* setting the navigation bar window size more than 99px */
