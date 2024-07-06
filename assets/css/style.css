@@ -196,3 +196,15 @@ img {
 #contact .form-control {
   background-color: var(--color-base);
 }
+
+/* //on focus change the border color */
+#contact .form-control:focus {
+  border-color: var(--color-brand);
+}
+
+/* remove any exixting effect on focus */
+#contact .form-control:focus,
+#contact .form-control:active,
+#contact .form-control:active:focus {
+  box-shadow: none;
+}
