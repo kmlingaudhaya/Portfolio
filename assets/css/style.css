@@ -69,7 +69,7 @@ img {
 
 .full-height {
   min-height: 100vh;
-  height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,6 +133,10 @@ img {
   }
 }
 
+.flex-direction-column-sm {
+  flex-direction: row;
+}
+
 .btn {
   padding: 12px 28px;
   font-weight: 700;
@@ -169,4 +173,26 @@ img {
 
 .custom-link:hover::after {
   width: 100%;
+}
+
+/* Blog posts */
+.card-custom .card-custom-image {
+  overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+  height: 15em; /* relative height */
+  max-width: 100%; /* ensure image doesn't exceed parent width */
+  object-fit: cover; /* resize image to cover the entire container */
+  transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+  transform: scale(1.1);
+}
+
+/* for the contact area */
+
+#contact .form-control {
+  background-color: var(--color-base);
 }
